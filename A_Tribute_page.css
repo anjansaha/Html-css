@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(94, 91, 87);
+    color: aliceblue;
+    
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+img{
+    position: relative;
+    left: 320px;
+    border: aliceblue;
+}
