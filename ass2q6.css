@@ -1,0 +1,10 @@
+h1{
+    outline: greenyellow dashed;
+    border: crimson solid;
+    
+}
+input{
+    border: black, 20px;
+    background-color: cadetblue;
+}
+
