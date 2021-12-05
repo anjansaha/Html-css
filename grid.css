@@ -1,0 +1,38 @@
+.container{
+    background-color: turquoise;
+    height: 720px;
+    
+    display: grid;
+    /*grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 130px 130px 130px ;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 50px;
+    row-gap: 12px;
+    column-gap: 12px ;
+    
+}
+.items{
+    background-color: yellow;
+    /*height: 150px;
+    width: 150px;*/
+    font-family: Comic Sans MS ;
+    font-size: 75%;
+}
+.header{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.footer{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.items1 img{
+    height: 290px;
+    width: 300px;
+}
+.header h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
