@@ -18,3 +18,5 @@ function fun1(){
         alert(s);
     }
 }
+ var ho= document.getElementByTagName("h1");
+ho[0].innerHTML="YO YO";
